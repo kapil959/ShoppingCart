@@ -40,8 +40,8 @@ class Cards extends React.Component {
     }
 
     cardClick(item) {
-        console.log("xyz");
-        // this.props.history.push({ pathname: "/card-details", state: item });
+        console.log(item);
+        this.props.history.push({ pathname: "/card-details", state: item });
     }
 
     render() {
@@ -85,6 +85,6 @@ class Cards extends React.Component {
     }
 }
 Cards.propTypes = {
-    // history: PropTypes.any
+    history: PropTypes.any
 };
 export default Cards;
