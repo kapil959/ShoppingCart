@@ -33,6 +33,6 @@ class Calendars extends React.Component {
 
 }
 Calendars.propTypes = {
-    history: PropTypes.any
+    // history: PropTypes.any
 };
 export default Calendars;

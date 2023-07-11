@@ -236,6 +236,6 @@ class Homepage extends React.Component {
     }
 }
 Homepage.propTypes = {
-    history: PropTypes.any
+    // history: PropTypes.any
 };
 export default Homepage;

@@ -79,6 +79,6 @@ class CardDetails extends React.Component {
 
 }
 CardDetails.propTypes = {
-    history: PropTypes.any
+    // history: PropTypes.any
 };
 export default CardDetails;

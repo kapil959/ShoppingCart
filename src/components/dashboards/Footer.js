@@ -63,6 +63,6 @@ class Footer extends React.Component {
 
 }
 Footer.propTypes = {
-    history: PropTypes.any
+    // history: PropTypes.any
 };
 export default Footer;

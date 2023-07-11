@@ -25,6 +25,6 @@ class Mobilecovers extends React.Component {
 
 }
 Mobilecovers.propTypes = {
-    history: PropTypes.any
+    // history: PropTypes.any
 };
 export default Mobilecovers;

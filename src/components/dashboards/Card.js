@@ -40,11 +40,12 @@ class Cards extends React.Component {
     }
 
     cardClick(item) {
-        this.props.history.push({ pathname: "/card-details", state: item });
+        console.log("xyz");
+        // this.props.history.push({ pathname: "/card-details", state: item });
     }
 
     render() {
-        console.log(this.props);
+        // console.log(this.props);
         var item1 = ""//this.props.data;
         if (this.props.location.pathname == "/calendars") {
             item1 = this.state.item.calendars;
@@ -84,6 +85,6 @@ class Cards extends React.Component {
     }
 }
 Cards.propTypes = {
-    history: PropTypes.any
+    // history: PropTypes.any
 };
 export default Cards;

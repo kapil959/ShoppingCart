@@ -24,6 +24,6 @@ class Photoframe extends React.Component {
 
 }
 Photoframe.propTypes = {
-    history: PropTypes.any
+    // history: PropTypes.any
 };
 export default Photoframe;
